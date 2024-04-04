@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <title>Validação de Agência</title>
+</head>
+<body>
+    <form action="valida_agencia.php" method="post">
+        <label for="agencia" >Agência:</label>
+        <input type="number" name="agencia" id="agencia" class="form-control" maxlength="4" required>
+        <br />
+        <label for="dv" >DV:</label>
+        <input type="text" name="dv" maxlength="1" required>
+        <br />
+        <input type="submit" value="Validar" class="form-control">
+       </form>
+</body>
+</html>
